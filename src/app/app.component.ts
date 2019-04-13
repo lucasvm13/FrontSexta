@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  categorias = [
+    {id: '1', nome: 'Categoria 1'},
+    {id: '1', nome: 'Categoria 2'},
+    {id: '1', nome: 'Categoria 3'},
+    {id: '1', nome: 'Categoria 4'},
+    {id: '1', nome: 'Categoria 5'},
+    {id: '1', nome: 'Categoria 6'},
+    {id: '1', nome: 'Categoria 7'},
+    {id: '1', nome: 'Categoria 8'},
+    {id: '1', nome: 'Categoria 9'},
+  ]
 }
